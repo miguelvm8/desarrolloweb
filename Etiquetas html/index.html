@@ -14,6 +14,7 @@
             color: red;
             font-weight: bold;
         }
+
         li {
             list-style: decimal;
         }
@@ -22,19 +23,126 @@
         <h1 style="color:blue">Etiquetas HTML</h1>
     </center>
     <ul>
-        <li><h3>&lt;a&gt;</h3></li>
+        <li>
+            <h3>&lt;a&gt;</h3>
+        </li>
         <p>Crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de
             correo, o cualquier otra URL.</p>
         <a href="https://www.google.com"> <i>Soy un link</i></a>
 
-        <li><h3>&lt;abbr&gt;</h3></li>
+        <li>
+            <h3>&lt;abbr&gt;</h3>
+        </li>
         <p>Representa una abreviación o acrónimo; el atributo opcional title puede ampliar o describir la abreviatura.
             Si está presente, el atributo title debe contener la descripción completa y nada más</p>
         <abbr title="Lenguaje de Marcado de Hipertexto">HTML</abbr>
 
+        <li>
+            <h3>&lt;address&gt;</h3>
+        </li>
+        <p>El elemento HTML &lt;address&gt; aporta información de contacto para su &lt;article&gt; más cercano o
+            ancestro &lt;body&gt; en el último caso lo aplica a todo el documento.</p>
+        Escrito por <a href="https://github.com/miguelvm8"> <i>Miguel</i></a>
 
-    </ul>
+        <li>
+            <h3>&lt;article&gt;</h3>
+        </li>
+        <p>El Elemento article de HTML &lt;article&gt; representa una composición auto-contenida en un documento,
+            página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable, por
+            ejemplo, en la indicación. Podría ser un mensaje en un foro, un artículo de una revista o un periódico, una
+            entrada de blog, un comentario de un usuario, un widget interactivo o gadget, o cualquier otro elemento
+            independiente del contenido.
+            <br>
+            Potenciales para el elemto article:
+        <ul>
+            <li> Publicación en el foro</li>
+            <li> Entrada en el blog</li>
+            <li> Noticia</li>
+        </ul>
+        </p>
+        <a href="exmple/article.html">Ejemplo de article</a>
 
+        <li>
+            <h3>&lt;aside&gt;</h3>
+        </li>
+        <p>El elemento HTML &lt;aside&gt; representa una sección de una página que consiste en contenido que está
+            indirectamente relacionado con el contenido principal del documento.</p>
+        <a href="example/aside.html">Ejemplo de aside en HTML</a>
+
+        <li>
+            <h3>&lt;audio&gt;</h3>
+        </li>
+        <p>el tag &lt;audio&gt; cumple la función de definir un sonido y se utiliza mayormente para insertar contenido
+            sonoro como música o podcasts en documentos HTML. Actualmente es soportado por todos los navegadores
+            modernos.</p>
+        <audio controls>
+            <source src="audio/teclado-mecanografia.mp3" type="audio/mpeg" ></audio>
+
+    
+    <li>
+        <h3>&lt;button&gt;</h3>
+    </li>
+    <p>La etiqueta de HTML &lt;button&gt; representa un elemento cliqueable de tipo botón que puede ser utilizado en
+        formularios o en cualquier parte de la página que necesite un botón estándar y simple de aplicar. De forma
+        predeterminada, los botones HTML se presentan con un estilo similar en todas las plataformas, estos estilos se
+        pueden cambiar utilizando CSS</p>
+    <button style="background-color:#4CAF50;"> Botón 1</button>
+
+
+    <li>
+        <h3>&lt;form&gt;</h3>
+    </li>
+    <p>El elemento &lt;form&gt; define formalmente un formulario y los atributos que determinan el comportamiento del
+        formulario. Cada vez que desees crear un formulario HTML, debes empezar utilizando este elemento y anidando todo
+        el contenido dentro de él. Muchas tecnologías de asistencia y complementos del navegador pueden descubrir
+        elementos &lt;form&gt; e implementar códigos de apoyo (hooks) especiales para que sean más fáciles de usar.</p>
+
+
+    <li>
+        <h3>&lt;footer&gt;</h3>
+    </li>
+    <p>Define un pie de página para un documento o sección 
+        Normalmente contien:
+        <ul>
+        <li>Información de autoría</li>
+        <li>Información de registro</li>
+        <li>Información del contacto</li>
+        <li>Mapa del sitio</li>
+        <li>Volver a los enlaces superiores</li>
+        <li>Documentos relacionados</li> 
+        </ul>
+    </p>
+    <li>
+        <h3>&lt;header&gt;</h3>
+    </li>
+    <p>Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación.
+        Normalmente contiene:
+        <ul>
+            <li>Uno a más elementos de encabezado (&lt;h1&gt; - &lt;h6&gt;)</li>
+            <li>Logotipo o icono</li>
+            <li>información de autoría</li>
+        </ul> 
+        <br>  
+        <strong>NOTA:</strong> tener varios &lt;header&gt; en un documento HTML. Sin embargo, no sepuede colocar
+                dentro de un &lt;footer&gt;, &lt;address&gt; u otro &lt;header&gt;
+        <br>
+        Ejemplo
+        <br>
+        <h1>Encabezado de la página principal aquí</h1>
+        <br>
+        Publicado el 17/08/2022
+    </p>
+
+    <li>
+        <h3>&lt;hgroup&gt;</h3>
+    </li>
+    <p></p>
+
+    <li>
+        <h3>&lt; &gt;</h3>
+    </li>
+    <p></p>
+</ul>
 </body>
 
 </html>
