@@ -1,0 +1,35 @@
+
+.bordes{
+    border: solid #6EA7A9;
+    border-radius: 10px;
+}
+header {
+    background-color: #E8F2A1;
+    text-align: center;
+    border-radius: 10px;
+    border: solid #6EA7A9 1px
+}
+
+div {}
+
+
+nav, aside {
+    width: 20%;
+    border-radius: 10px;
+    border: solid #6EA7A9 1px
+}
+
+section {
+    width: 80%;
+    border-radius: 10px;
+    border: solid #6EA7A9 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #B4C7DC;
+    text-align: center;
+    border-radius: 10px;
+    border: solid #6EA7A9 1px;
+}
